@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="tiny.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384qQq1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;500;600;700&display=swap">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/cyberpunk.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: #021634;
+        }
+
+        .content-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 8vh);
+            color: #9fef00;
+            padding: 10px;
+        }
+
+        .profile-img,
+        .profile-details {
+            flex: 1 1 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-img img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .content-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="cyberpunk">
+            <div class="content-section">
+
+                <div class="profile-img">
+                    <img src="/static/images/logo.png" alt="Logo">
+                </div>
+
+                <div class="profile-details">
+                    <h3>Well Done!</h3>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEjLEHfe/JQGiRRSQQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
